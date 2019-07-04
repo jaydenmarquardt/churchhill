@@ -1,0 +1,1200 @@
+
+
+
+    html
+    {
+        max-width:100%;
+        overflow-x: hidden;
+        min-height:100%;
+
+    }
+
+    body
+    {
+        background-color:  #e1e0e0;
+        font-family: "DIN Alternate";
+        margin: 0;
+        min-height:100%;
+        position:relative;
+
+    }
+
+
+
+    .menu
+    {
+        position:fixed;
+        z-index:20;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+
+        background-color: #9d6d4c;
+
+        display: flex;
+        padding: 20px;
+        box-shadow: 0 0 113px #826854;
+
+    }
+
+
+    .menu-left
+    {
+        display: flex;
+
+        flex:1 0 50%;
+
+
+
+    }
+
+     .menu-right
+     {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        flex:1 0 50%;
+
+     }
+
+
+    .slideshow
+    {
+        width: 100%;
+        height: calc( 100vh - 90px );
+
+        background-color: #cecdcc;
+        object-fit: cover;
+
+
+
+    }
+
+    .nav-button
+    {
+        font-size: 26pt;
+        color: #e1e0e0;
+        font-weight: bold;
+        margin-left: 30px;
+        text-decoration: none;
+        transition: all 0.4s linear;
+        font-family: "DIN Alternate";
+
+
+    }
+
+    .nav-button:hover
+    {
+
+        color: #2b2b2b;
+
+    }
+
+    .logo
+    {
+
+        font-size: 44pt;
+        color: #e1e0e0;
+        font-weight: bold;
+        font-family: "DIN Alternate";
+        text-decoration: none;
+        verticle-align:center;
+        display: flex;
+        align-items: center;
+     }
+
+
+    .logo img
+    {
+        width: 95px;
+        border-radius: 50%;
+        background-color: #9d6d4c;
+        padding: 20px;
+        padding-top: 0px;
+        margin-top:30px;
+
+
+    }
+
+    .row
+    {
+        margin-top: 20px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .col
+    {
+
+        flex-direction: column;
+
+    }
+
+    #img1
+    {
+        flex: 1 0 33%;
+        max-width: 33%;
+        max-height: 245px;
+
+        background-color:  #9d6d4c;
+        border-radius:12px;
+        box-shadow: 0 0 10px grey;
+
+    }
+
+    #content1
+    {
+        flex: 1 0 66%;
+        margin-left:20px;
+    }
+
+    #img2
+    {
+        width:100%;
+        max-height: 60vh;
+        border-radius:12px;
+        box-shadow: 0 0 10px grey;
+
+    }
+
+    #content2
+    {
+        width:80%;
+        margin-top: -13vh;
+        margin-bottom: 13vh;
+    }
+
+    #content2 a
+    {
+
+        font-size:24px;
+
+    }
+
+    #content2 a:after
+    {
+        content: "➡";
+        background: white;
+        color: #d9ae90;
+        border-radius: 50%;
+        padding: 0 4px;
+        font-size: 16px;
+        margin-left:5px;
+
+    }
+
+    #content2 a:hover:after
+    {
+        background: #2b2b2b;;
+    }
+
+    .bubble
+    {
+       padding:30px;
+       background-color:  #d9ae90;
+       border-radius:12px;
+       box-shadow: 0 0 10px grey;
+       color:white;
+       overflow:hidden;
+       transition: height 1s ease-in;
+
+    }
+
+    h1
+    {
+
+        text-transform: uppercase;
+
+    }
+
+     h2
+     {
+
+        margin: 0;
+
+     }
+
+    .footer
+    {
+      position: absolute;
+      top:100%;
+      bottom:0;
+      left:0;
+      right:0;
+      margin-top:20px;
+
+
+    }
+
+    .footer-top
+    {
+
+        width: 100%;
+        background-color: #cecdcc;
+
+    }
+
+    .footer-top .row
+    {
+
+        padding:10px;
+
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .footer-top .row div
+    {
+        display: flex;
+
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: space-between;
+        text-align:center;
+
+
+    }
+
+    .footer-top img
+    {
+
+        width: 180px;
+        max-height: 120px;
+        margin:10px 40px;
+
+
+
+    }
+
+
+    .footer-bottom
+     {
+
+          width: 100%;
+
+          background-color: #85634b;
+
+          padding:20px;
+
+     }
+
+     .footer-bottom .row
+     {
+
+         padding:10px;
+
+         display: flex;
+
+         justify-content: space-between;
+         align-items: flex-start;
+         margin-top: 0;
+
+         color:white;
+     }
+
+      .footer-bottom .row div:first-child
+      {
+
+         flex:2;
+         display:flex;
+         justify-content: space-between;
+         align-items:center;
+         margin:0;
+
+      }
+
+      .footer-bottom .row div:first-child div
+      {
+          margin:0;
+          margin-left:10px;
+
+      }
+
+
+
+     .footer-bottom .row *
+     {
+         margin:0;
+         list-style: none;
+
+     }
+
+     .footer-bottom .row div
+      {
+          margin:0 20px;
+          flex:1;
+
+      }
+
+     .footer-bottom img
+     {
+
+         max-height: 120px;
+
+     }
+
+     a
+     {
+         font-weight: bold;
+         text-decoration: none;
+         transition: all 0.4s linear;
+
+     }
+
+     a:after
+     {
+
+         transition: all 0.4s linear;
+
+     }
+
+     a:hover
+     {
+
+         color: #2b2b2b;
+
+     }
+
+
+
+        .slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+
+
+        .article
+        {
+
+            margin-top:110px;
+
+        }
+
+        #imageAbout
+        {
+            width: 100%;
+            height: calc( 70vh - 90px );
+
+            background-color: #cecdcc;
+            object-fit: cover;
+
+
+        }
+
+        .subnav
+        {
+            width:100%;
+            background-color: #9d6d4c;
+
+
+        }
+
+        .subnav ul
+        {
+
+            display:flex;
+            justify-content: space-around;
+            justify-items: center;
+            text-align: center;
+
+            margin-top:0 ;
+            margin-bottom:0;
+            width: 100%;
+
+            padding:0;
+
+
+        }
+
+
+        .subnav .row
+        {
+            margin-top:-4px ;
+
+        }
+
+
+
+        .subnav li
+        {
+
+            display:inline-block;
+            color:white;
+            padding:20px;
+        }
+
+         .subnav li label:hover
+         {
+            color: #2b2b2b;
+
+         }
+
+
+         .subnav li label
+        {
+             flex:1;
+            white-space: nowrap;
+            color:white;
+            font-weight:bold;
+            font-size: 18pt;
+
+            transition: all 0.3s ease-in;
+            transition: color 0.4s linear;
+            text-transform:uppercase;
+
+            background: #9d6d4c;
+            cursor:pointer;
+             position:relative;
+             z-index:10;
+
+
+        }
+
+        #introduction:checked ~  .subnav li #lb_intro
+        {
+              border-radius: 50%;
+              padding: 40px;
+              padding-left: 80px;
+              padding-right: 80px;
+              background: #9d6d4c;
+
+        }
+
+        #introduction:checked ~ .row #about_content1
+        {
+            display:block;
+            opacity:1;
+            height:auto;
+            font-size:18px;
+
+        }
+
+
+        #description:checked ~ .subnav li #lb_description
+        {
+              border-radius: 50%;
+              padding: 40px;
+              padding-left: 80px;
+              padding-right: 80px;
+              background: #9d6d4c;
+        }
+
+        #description:checked ~ #imageAbout
+        {
+             content:url("images/churchill-house-22.jpg");
+        }
+
+        #description:checked ~ .row #about_content2
+        {
+            opacity:1;
+            height:auto;
+            font-size:18px;
+
+
+        }
+
+
+        #history:checked ~ .subnav li #lb_history
+        {
+              border-radius: 50%;
+              padding: 40px;
+              padding-left: 80px;
+              padding-right: 80px;
+              background: #9d6d4c;
+
+        }
+
+        #history:checked ~ #imageAbout
+        {
+             content:url("images/churchill-house-24.jpg");
+        }
+
+        #history:checked ~ .row #about_content3
+        {
+            opacity:1;
+            height:auto;
+            font-size:18px;
+        }
+
+
+        #robin_boyd:checked ~ .subnav li #lb_robin_boyd
+        {
+              border-radius: 50%;
+              padding: 40px;
+              padding-left: 80px;
+              padding-right: 80px;
+              background: #9d6d4c;
+
+        }
+
+        #robin_boyd:checked ~ #imageAbout
+        {
+             content:url("images/churchill-house-21.jpg");
+        }
+
+        #robin_boyd:checked ~ .row #about_content4
+        {
+            opacity:1;
+            height:auto;
+            font-size:18px;
+        }
+
+        #lb_statement_of_significance
+        {
+            flex:2;
+        }
+
+
+        #statement_of_significance:checked ~ .subnav li #lb_statement_of_significance
+        {
+              border-radius: 50%;
+              padding: 40px;
+              padding-left: 80px;
+              padding-right: 80px;
+              background: #9d6d4c;
+
+        }
+
+        #statement_of_significance:checked ~ #imageAbout
+        {
+             content:url("images/churchill-house-20.jpg");
+        }
+
+        #statement_of_significance:checked ~ .row #about_content5
+        {
+            opacity:1;
+            height:auto;
+            font-size:18px;
+
+
+        }
+
+
+
+
+        input[type="radio"]
+        {
+
+           display:none;
+
+        }
+
+        .about_row
+        {
+
+           margin-top:0;
+           position:relative;
+           z-index:1;
+
+        }
+
+        .about_content
+        {
+
+            margin-top:0;
+
+            transition: ease-in 1s opacity  0s,  1s font-size  0.2s  ;
+
+            opacity:0;
+            font-size:1px;
+
+            height:0;
+            padding:0;
+            overflow:hidden;
+            display: inline-block;
+
+
+        }
+
+        .imageIcon
+        {
+
+            width:100px;
+            height:100px;
+            border-radius: 8px;
+            transition: all ease 1s;
+        }
+
+        .imageIcon:hover
+        {
+
+            width:120px;
+            height:120px;
+
+        }
+
+
+
+
+
+        /*Gallary*/
+
+         .galnav
+        {
+            width:100%;
+            background-color: #9d6d4c;
+
+
+        }
+
+        .galnav ul
+        {
+
+            display:flex;
+            justify-content: space-around;
+            justify-items: center;
+            text-align: center;
+
+            margin-top:0 ;
+            margin-bottom:0;
+            width: 4455px;
+
+            padding:0;
+            overflow: scroll;
+
+            padding-left:60px;
+            padding-right:30px;
+
+        }
+
+
+        .galnav
+        {
+            margin-top:-4px ;
+            overflow: scroll;
+
+        }
+
+        .galnav li
+        {
+
+            display:inline-block;
+            color:white;
+            padding:20px;
+        }
+
+         .galnav li label:hover
+         {
+            color: #2b2b2b;
+
+         }
+
+
+        .galnav li label
+        {
+            flex:1;
+            white-space: nowrap;
+            color:white;
+            font-weight:bold;
+            font-size: 18pt;
+
+            transition: all 0.3s ease-in;
+            transition: color 0.4s linear;
+            text-transform:uppercase;
+
+            background: #9d6d4c;
+            cursor:pointer;
+            position:relative;
+            z-index:10;
+
+
+        }
+
+
+
+
+        #imageGallary
+        {
+            width: 100%;
+            height: calc( 100vh - 260px );
+
+            background-color: #cecdcc;
+            object-fit: contain;
+
+        }
+        #image1:checked ~ .subnav li #lb_image1 .imageIcon
+        {
+            width:120px;
+            height:120px;
+
+        }
+        #image2:checked ~ .subnav li #lb_image2 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image3:checked ~ .subnav li #lb_image3 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image4:checked ~ .subnav li #lb_image4 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image5:checked ~ .subnav li #lb_image5 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image6:checked ~ .subnav li #lb_image6 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image7:checked ~ .subnav li #lb_image7 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image8:checked ~ .subnav li #lb_image8 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image9:checked ~ .subnav li #lb_image9 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image10:checked ~ .subnav li #lb_image10 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image11:checked ~ .subnav li #lb_image11 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image12:checked ~ .subnav li #lb_image12 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image13:checked ~ .subnav li #lb_image13 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image14:checked ~ .subnav li #lb_image14 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image15:checked ~ .subnav li #lb_image15 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image16:checked ~ .subnav li #lb_image16 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image17:checked ~ .subnav li #lb_image17 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image18:checked ~ .subnav li #lb_image18 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image19:checked ~ .subnav li #lb_image19 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image20:checked ~ .subnav li #lb_image20 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image21:checked ~ .subnav li #lb_image21 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image22:checked ~ .subnav li #lb_image22 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image23:checked ~ .subnav li #lb_image23 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image24:checked ~ .subnav li #lb_image24 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image25:checked ~ .subnav li #lb_image25 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image26:checked ~ .subnav li #lb_image26 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+        #image27:checked ~ .subnav li #lb_image27 .imageIcon
+        {
+            width:120px;
+            height:120px;
+        }
+
+        #image1:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-1.jpg");
+        }
+        #image2:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-2.jpg");
+        }
+        #image3:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-3.jpg");
+        }
+        #image4:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-4.jpg");
+        }
+        #image5:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-5.png");
+        }
+        #image6:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-6.jpg");
+        }
+        #image7:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-7.jpg");
+        }
+        #image8:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-8.jpg");
+        }
+        #image9:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-9.jpg");
+        }
+        #image10:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-10.jpg");
+        }
+        #image11:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-11.jpg");
+        }
+        #image12:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-12.jpg");
+        }
+        #image13:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-13.jpg");
+        }
+        #image14:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-14.jpg");
+        }
+        #image15:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-15.jpg");
+        }
+        #image16:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-16.jpg");
+        }
+        #image17:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-17.jpg");
+        }
+        #image18:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-18.jpg");
+        }
+        #image19:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-19.jpg");
+        }
+        #image20:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-20.jpg");
+        }
+        #image21:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-21.jpg");
+        }
+        #image22:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-22.jpg");
+        }
+        #image23:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-23.jpg");
+        }
+        #image24:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-24.jpg");
+        }
+        #image25:checked ~ #imageGallary
+        {
+             content:url("images/churchill-house-25.jpg");
+        }
+        #image26:checked ~ #imageGallary
+        {
+             content:url("images/extra1-churchill house by robin boyd photo copyright darren bradley.jpg");
+        }
+        #image27:checked ~ #imageGallary
+        {
+             content:url("images/extra2-robin boyd portrait copyright Mark Strizic.jpg");
+        }
+
+        .footer-bottom .socialicons h3
+        {
+
+            margin-bottom:20px;
+
+        }
+
+        .footer-bottom .socialicons li
+        {
+            display:inline;
+
+        }
+
+        .footer-bottom .socialicons li a
+        {
+            color:white;
+            background-color:lightblue;
+            padding:10px;
+            margin:5px;
+            border-radius:8px;
+
+
+        }
+
+        .footer-bottom .socialicons li a[href="#facebook"]
+        {
+            background-color: #3b5998;
+            padding-right:8px;
+            padding-left:13px;
+
+        }
+        .footer-bottom .socialicons li a[href="#instagram"]
+        {
+            background-color: #CC3366;
+            padding-right: 13px;
+            padding-left: 13px;
+
+        }
+
+        .footer-bottom .socialicons li a[href="#youtube"]
+        {
+            background-color:#c4302b;
+            padding-right:13px;
+            padding-left:13px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (max-width: 1200px) {
+
+            .menu-right
+            {
+                justify-content: center;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (max-width: 992px) {
+            .subnav li label
+            {
+               font-size: 1rem;
+             }
+             .logo
+             {
+                 font-size: 31pt;
+                 margin-top: 20px;
+             }
+
+             .footer-bottom .socialicons li
+             {
+                 display: inline-block;
+                 margin-bottom: 28px;
+            }
+            .menu-right
+            {
+                justify-content: flex-start;
+            }
+
+        }
+
+         /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+
+            .logo {
+                font-size: 2rem;
+            }
+            .nav-button
+            {
+                font-size: 1.5rem;
+            }
+            .row
+            {
+                flex-wrap: wrap;
+                margin-left: 0;
+                margin-right: 0;
+
+            }
+            #img1
+            {
+                max-width: none;
+            }
+            .subnav li label
+            {
+                padding-left: 5px;
+                padding-right: 5px;
+             }
+        }
+
+         /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (max-width: 600px) {
+            .footer-top img
+            {
+                width: 106px;
+            }
+
+            .footer-bottom img {
+                max-height: 84px;
+            }
+
+            .socialicons
+            {
+                display:none;
+            }
+
+            .footer-bottom .row div:first-child
+            {
+                flex: 14;
+            }
+
+            .subnav li
+            {
+                padding-left: 5px;
+                padding-right: 5px;
+             }
+
+            .subnav li label
+            {
+                padding-left: 5px;
+                padding-right: 5px;
+                font-size: 0.9rem;
+             }
+
+             .subnav li label
+             {
+                 padding: 0 !important;
+             }
+
+             .nav-button
+             {
+                 margin: 5px;
+             }
+
+             .logo
+             {
+                color: #9d6d4c;
+             }
+
+        }
+
+
+
